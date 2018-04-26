@@ -58,7 +58,7 @@ CREATE TABLE `products` (
   `name` varchar(255) NOT NULL,
   `price` varchar(5) DEFAULT NULL,
   `description` text,
-  `created` datetime DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `created` datetime DEFAULT NULL,
   `group_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
